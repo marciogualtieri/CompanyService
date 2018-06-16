@@ -23,6 +23,8 @@
 
 # Company Service
 
+<kbd>![Company Service](./images/company-service.gif)</kbd>
+
 ## Overview
 
 The purpose of this project is to showcase my back-end development skills with Spring MVC RestController and [Spring Boot](https://spring.io/projects/spring-boot).
@@ -185,6 +187,8 @@ I'm adding the (original) three stooges to the following company as owners:
     http://localhost:5000/companies/1000/owners
 
 If you retrieve this particular company:
+
+    curl --request GET http://localhost:5000/companies/1000
 
 You will note three new knuckle heads, I mean, owners:
 
