@@ -7,7 +7,6 @@
   - [Dependencies](#dependencies)
   - [Running Tests](#running-tests)
   - [Code Coverage](#code-coverage)
-  - [Continuous Integration](#continuous-integration)
   - [Running the App](#running-the-app)
     - [Listing All Companies](#listing-all-companies)
     - [Listing a Company](#listing-a-company)
@@ -78,12 +77,6 @@ I believe that unit tests would be more suitable for data processing code (which
 I have added the [JaCoCo plugin](http://www.eclemma.org/jacoco/trunk/doc/maven.html) to this project.
 
 JaCoCo reports are generated automatically after tests are executed and can be found at `target/site/jacoco-it/index.html`.
-
-## Continuous Integration
-
-I'm using [CircleCI](https://circleci.com/) for this purpose.
-
-You will find the CircleCI builds [here]().
 
 ## Running the App
 
