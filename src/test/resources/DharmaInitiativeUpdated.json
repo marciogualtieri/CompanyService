@@ -1,0 +1,28 @@
+{
+  "name": "Dharma Initiative",
+  "address": "815108 Membata Ave. Ann Arbor, MI",
+  "city": "Ann Arbor",
+  "country": "U.S.A.",
+  "email": "contact@dharma.com",
+  "phoneNumber": "481 516 2342",
+  "owners": [
+    {
+      "name": "Gerald DeGroot"
+    },
+    {
+      "name": "Karen DeGroot"
+    },
+    {
+      "name": "J.J. Abrams"
+    },
+    {
+      "name": "Moe Howard"
+    },
+    {
+      "name": "Curly Howard"
+    },
+    {
+      "name": "Larry Fine"
+    }
+  ]
+}

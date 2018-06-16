@@ -1,0 +1,13 @@
+{
+  "name": "Wayne Industries",
+  "address": "432 East Wacker St. Gotham City, NY",
+  "city": "Gotham City",
+  "country": "United States",
+  "email": "contact@wayne.com",
+  "phoneNumber": "748 362 3628",
+  "owners": [
+    {
+      "name": "Bruce Wayne"
+    }
+  ]
+}
