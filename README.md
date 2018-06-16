@@ -248,11 +248,11 @@ After the deployment is complete, you should be able to access the deployed serv
 
 ### Service Redundancy for Fault Tolerance
 
-Redundancy can be achieved in EC2 with availability zones (AZs). AZs are divided by region. AZs in different regions are independently powered and have network and security of their own. Thus, they are insulated from the failures of other zones and provide redundancy.
+Redundancy can be achieved in EC2 with availability zones (AZs). AZs are divided by region. AZs in different regions are independently powered and have network and security of their own, thus, they are insulated from the failures of other zones and provide redundancy.
 
-That will significantly reduce the chance of total outage or failure, but note that bandwidth across zone boundaries will cost you some extra money.
+That will significantly reduce the chance of total outage or failure, but note that bandwidth across zone boundaries will cost you some extra buckaroos.
 
-Another important factor to consider is the database choice. This particular app hasn't been configured with a production database. Whatever your choice for production, it should support high-availability also.
+Another important factor to consider is the database choice. This particular app hasn't been configured with a production database. Whatever your choice for production, it should support high-availability too.
 
 Note that AWS makes available a plethora of [cloud databases](https://aws.amazon.com/products/databases/).
 
