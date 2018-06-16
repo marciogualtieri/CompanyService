@@ -14,10 +14,10 @@
     - [Updating a Company](#updating-a-company)
       - [Adding an Owner to a Company](#adding-an-owner-to-a-company)
     - [Deleting a Company](#deleting-a-company)
-  - [Deployment to AWS](#deployment-to-aws)
-    - [Service Redundancy for Fault Tolerance](#service-redundancy-for-fault-tolerance)
+  - [Deploying to AWS](#deploying-to-aws)
   - [Developer's Guide](#developers-guide)
     - [JPA Relationship Database](#jpa-relationship-database)
+    - [Service Redundancy for Fault Tolerance](#service-redundancy-for-fault-tolerance)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -216,7 +216,7 @@ No output for deleting a company, but if you retrieve this particular company:
 
 The company no longer exists.
 
-## Deployment to AWS
+## Deploying to AWS
 
 Install the AWS EB CLI following [these instructions](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install.html).
 
@@ -246,6 +246,12 @@ After the deployment is complete, you should be able to access the deployed serv
 
     curl --request GET http://companyservice-dev.eu-west-1.elasticbeanstalk.com/companies
 
+## Developer's Guide
+
+### JPA Relationship Database
+
+For my own future reference, [this resource](https://en.wikibooks.org/wiki/Java_Persistence/OneToMany) was very useful for defining a relationship in JPA.
+
 ### Service Redundancy for Fault Tolerance
 
 Redundancy can be achieved in EC2 with availability zones (AZs). AZs are divided by region. AZs in different regions are independently powered and have network and security of their own, thus, they are insulated from the failures of other zones and provide redundancy.
@@ -255,9 +261,3 @@ That will significantly reduce the chance of total outage or failure, but note t
 Another important factor to consider is the database choice. This particular app hasn't been configured with a production database. Whatever your choice for production, it should support high-availability too.
 
 Note that AWS makes available a plethora of [cloud databases](https://aws.amazon.com/products/databases/).
-
-## Developer's Guide
-
-### JPA Relationship Database
-
-For my own future reference, [this resource](https://en.wikibooks.org/wiki/Java_Persistence/OneToMany) was very useful for defining a relationship in JPA.
