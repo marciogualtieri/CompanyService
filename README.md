@@ -35,7 +35,7 @@ The back-end consists of a JSON REST service which supports the following operat
 * GET all companies
 * GET a single company
 * PUT (update) a company
-* Add owner(s) to company
+* POST (add) owner(s) to a company
 
 A company has the following JSON properties:
 
