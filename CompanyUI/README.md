@@ -1,6 +1,22 @@
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Company UI](#company-ui)
+	- [Overview](#overview)
+	- [Installing Dependencies](#installing-dependencies)
+	- [Running Tests](#running-tests)
+	- [Building the app](#building-the-app)
+	- [Running the App](#running-the-app)
+	- [Developer's Guide](#developers-guide)
+	- [TODOS](#todos)
+
+<!-- /TOC -->
+
+
 # Company UI
 
 ## Overview
+
+![](./images/running_the_app.gif)
 
 The purpose of this project is to showcase my skills with [React.js](https://reactjs.org/).
 
