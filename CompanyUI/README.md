@@ -69,7 +69,7 @@ You should get an output similar to the following:
       CompanyList
         ✔ has all headers
         ✔ renders without errors
-        ✔ loads companies from back-end
+        ✔ receives companies
 
     Finished in 0.505 secs / 0.442 secs @ 11:39:29 GMT+0200 (CEST)
 

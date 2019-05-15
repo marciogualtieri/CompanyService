@@ -45,7 +45,7 @@ describe('CompanyList', function () {
     expect(wrapper.props().columns.map(o => o.Header)).toEqual(headers)
   });
 
-  it('loads companies from back-end', function () {
+  it('receives companies', function () {
     expect(wrapper.props().data).toEqual(companies)
   });
 });
