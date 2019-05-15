@@ -83,4 +83,5 @@ public class Company {
     public void setOwners(Set<Owner> owners) {
         this.owners = owners;
     }
+
 }
